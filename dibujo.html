@@ -1,0 +1,69 @@
+<doctype html>
+    <html lang=es>
+    <head>
+        <meta charset=utf-8>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio Pau Chacón</title>
+        <link rel="stylesheet" href="style.css">
+             <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     </head>
+     <body>
+     <head>
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+        </head>
+     <body >
+<nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
+    <div class="w3-container w3-theme-d2">
+    <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
+    <br>
+    <div class="w3-padding w3-center">
+        <img class="w3-circle" src="paulogo.jpg" alt="avatar" style="width:75%">
+    </div>
+</div>
+<a class="w3-bar-item w3-button" href="index.html">Inicio</a>
+<a class="w3-bar-item w3-button" href="#dibujo.html">Dibujo</a>
+<a class="w3-bar-item w3-button" href="digital.html">Digital</a>
+<a class="w3-bar-item w3-button" href="oleo.html">Oleo</a>
+<a class="w3-bar-item w3-button" href="tinta.html">Tinta</a>
+</nav>
+<header class="w3-bar w3-card w3-theme">
+  <button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
+</header>
+     
+     <header classs="header" id= "inicio">
+     <img src="bx-menu.svg" alt="" class="menu">
+     <nav class="menu-navegacion">
+         <a href="#inicio"Inicio></a>
+         <a href="#about me"About me></a>
+         <a href="#trabajos"Trabajos></a>
+         <a href="#contacto"Contacto></a>
+     </nav>
+    
+         <section class="gallery" id="portafolio">
+             <div class="contenedor">
+                 <h2 class="subtitulo">Obras Dibujo/Grabado</h2>
+                 <div class="contenedor-galeria">
+                     <img src="pau.jpg" alt="" class="img-galeria">
+                     <img src="LANA.png" alt="" class="img-galeria">
+                     <img src="flores.jpg" alt="" class="img-galeria">
+                     <img src="a1.jpg" alt="" class="img-galeria">
+                     <img src="a2.jpg" alt="" class="img-galeria">
+                      <img src="a3.jpg" alt="" class="img-galeria">
+                       <img src="craneo.jpg" alt="" class="img-galeria">
+                     <img src="PERICO.png" alt="" class="img-galeria">
+                  </div>
+              </div>
+              
+              <script>
+closeSidebar();
+function openSidebar() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeSidebar() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
